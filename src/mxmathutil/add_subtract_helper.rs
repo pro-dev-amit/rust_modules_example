@@ -6,9 +6,9 @@ pub mod add_mod {
         let c = a + b;
         return c;
     }
-    
+        
     pub fn special_addition(){
-        advmath_mod::most_adv_addition();
+        advmath_mod::most_adv_addition(); //calling the nested module
         println!("special_addition called")
     }
 }
