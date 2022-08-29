@@ -1,6 +1,6 @@
 
 pub mod add_mod {    
-    use crate::mxmathutil::advancedmath::adv_math_helper::advmath_mod;
+    use crate::mxmathutil::advancedarithmetic::adv_arithmetic_helper::advmath_mod;
 
     pub fn add(a: i32, b: i32) -> i32 {        
         let c = a + b;
